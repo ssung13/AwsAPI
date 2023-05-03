@@ -22,14 +22,16 @@ And lastly, set apikey in configuratino to your openai apikey. You can optionall
 
 # Example
 *// set the environment variable named API_KEY in Amazon AWS, then call*
-
+```
 const configuration = new Configuration({
   apiKey: process.env.API_KEY,
 });
+```
 
 *// or you can just do this*
-
+```
 let apiKey = "YOUR API KEY";
 const configuration = new Configuration({
   apiKey: apiKey,
 });
+```
