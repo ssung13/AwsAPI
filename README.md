@@ -28,8 +28,8 @@ const configuration = new Configuration({
 });
 ```
 
-*or you can just do this, but make sure you don't publically upload a code with your apikey in it. 
-It's very likely that your apikey will get deactiviated once GitGuardian detects it*
+*Or you can just do this, but make sure you don't publically upload a code with your apikey in it.*
+*It's very likely that your apikey will get deactiviated once GitGuardian detects it*
 ```
 let apiKey = "YOUR API KEY";
 const configuration = new Configuration({
