@@ -6,7 +6,7 @@ If you want to replicate it, then do the following
 
 Replace the origin from corsOptions to whatever website that will call the api.
 
-/* Example */
+# Example
 
 const corsOptions ={
   origin:'https://testing.com', 
@@ -18,14 +18,14 @@ This will allow testing.com to POST data to the api-address that amazon-aws will
 
 And lastly, set apikey in configuratino to your openai apikey. You can optionally use the amazon aws lambda's environment variables and set the api key there and use process.env to retreive it.
 
-/* Example */
-// set the environment variable named API_KEY in Amazon AWS, then call
+# Example
+*// set the environment variable named API_KEY in Amazon AWS, then call*
 
 const configuration = new Configuration({
   apiKey: process.env.API_KEY,
 });
 
-// or you can just do this
+*// or you can just do this*
 
 let apiKey = "YOUR API KEY";
 const configuration = new Configuration({
