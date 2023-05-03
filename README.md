@@ -14,6 +14,7 @@ const corsOptions ={
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200,
 }
+
 ```
 
 This will allow testing.com to POST data to the api-address that amazon-aws will give you, while blocking POSTs from other websites.
